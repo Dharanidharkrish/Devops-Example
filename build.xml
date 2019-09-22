@@ -11,12 +11,8 @@
     <property name="target" value="11"/>
     <property name="source" value="11"/>
     <path id="JUnit 4.libraryclasspath">
-        <pathelement location="../../.p2/pool/plugins/org.junit_4.12.0.v201504281640/junit.jar"/>
-        <pathelement location="../../.p2/pool/plugins/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
-    </path>
-    <path id="DevopsTestApp.classpath">
-        <pathelement location="bin"/>
-        <path refid="JUnit 4.libraryclasspath"/>
+        <pathelement location="lib/org.junit_4.12.0.v201504281640/junit.jar"/>
+        <pathelement location="lib/org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
     </path>
     <path id="run.SumOfNumbersTest.classpath">
         <path refid="DevopsTestApp.classpath"/>
